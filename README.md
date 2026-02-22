@@ -19,6 +19,7 @@ Waiting for incoming connection on port 55.
 "
 if you do not, then double check the steps again.
 11. Now that the server is listening for traffic on port 55, we need to run the client, so on the client machine command prompt, in the Debug file path, type "ChatClient.exe [Input Your Server Machine's IPv4] 55" to find your server's IPv4 open a real command prompt and type in "ipconfig" and look for IPv4 and then use that. It should output:
+
 "
 Initializing Winsock.
 Connecting to [Your IP]:55.
@@ -29,3 +30,4 @@ Enter a message:
 "
 
 12. Now you can begin the chat! Each user gets a turn to talk and only relinquishes their turn when they type just "#" or "Exit". Once "#" is sent then all messages already lined up will send to the other user all at once and the other user will have the option to respond. Once "Exit" is sent, all messages beforehand are sent over and the other user is told that you want to exit, but the two users can continue to talk to each other until both users send the "Exit" command. You can even resend the "Exit" command to tell the other user again that you want to exit. (small note but # also allows the receiving messages user to start composing their responce back to the other user and this must be entered before anything can happen, even the "Exit" command)
+
